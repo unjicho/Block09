@@ -1,0 +1,62 @@
+.Grid-container 
+  #oval {
+        width: 200px;
+        height: 100px;
+        background: black;
+        display: inline-block;
+        grid: repeat(4, 50px) / auto-flow
+    80px
+  }
+
+.Grid-container2
+    #triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 100px solid orange;
+        border-bottom: 50px solid transparent;
+        display:inline-block;
+    }
+    
+.Grid-container3> div{
+    background-color: 
+    width : 19vw;
+    height: 10vh;
+}
+
+
+.Grid-container3 
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: lightcoral;
+    display: inline-block;
+    grid: repeat(4, 50px) / auto-flow
+}
+
+    @media {max-width: 768px}{
+        .Grid-container {
+            margin:0 auto !important;
+            padding: 0 ! important;
+        
+        }
+    }
+
+
+    @media {max-width: 768px}
+        .Grid-container2 {
+            margin:0 auto !important;
+            padding: 0 ! important;
+        
+        }
+    
+
+    @media {max-width: 768px}
+        .Grid-container3 {
+            margin:0 auto !important;
+            padding: 0 ! important;
+        
+        }
+    
+    
+
